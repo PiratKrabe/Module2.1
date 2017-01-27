@@ -3,11 +3,11 @@
  */
 public class FourthTask {
     public static void main(String[] args) {
-        int n = 739;
-        int k=(n%100);
-        int z=(n%10);
-        int b=(k-z)/10;
-        int v=(n-k)/100+z+b;
+        short n = 739;
+        byte k= (byte) (n%100);
+        byte z= (byte) (n%10);
+        byte b= (byte) ((k-z)/10);
+        byte v= (byte) ((n-k)/100+z+b);
         System.out.println("Result = " +v);
     }
 }

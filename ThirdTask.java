@@ -4,7 +4,7 @@
 public class ThirdTask {
     public static void main(String[] args) {
         double n = 999.4999999;
-        int b = (int) n;
+        short b = (short) n;
         double z = n - b;
         if (z >= 0.5) {
             b++;

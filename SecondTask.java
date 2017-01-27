@@ -3,9 +3,9 @@
  */
 public class SecondTask {
     public static void main(String[] args) {
-        int n = 17;
-        int z=(n%10);;
-        int v=((n-z)/10)+z;;
+        byte n = 17;
+        byte z= (byte) (n%10);;
+        byte v= (byte) (((n-z)/10)+z);;
         System.out.println("Result = " + v);
     }
 }

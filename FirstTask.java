@@ -3,10 +3,10 @@
  */
 public class FirstTask{
     public static void main(String[] args) {
-        int q=53;
-        int w=7;
-        int s=q%w;
-        int v=q/w;
+        byte q=53;
+        byte w=7;
+        byte s= (byte) (q%w);
+        byte v= (byte) (q/w);
         System.out.print("Result: " +q );
         System.out.print(" / " +w );
         System.out.print(" = " +v);
